@@ -37,7 +37,7 @@ ZMK_MOD_MORPH(morph_num, bindings = <&mo NUM>, <&to NUM>;
               mods = <(MOD_LSFT)>;)
 
 // Tap: backspace | hold: layer | shift + hold: layer
-#define NAV_TAP &nav_layer_ht 0 SPC
+#define NAV_TAP &nav_layer_ht 0 TAB
 ZMK_HOLD_TAP(nav_layer_ht, bindings = <&morph_nav>, <&kp>;
              flavor = "balanced"; tapping-term-ms = <200>;
              quick-tap-ms = <QUICK_TAP_MS>;)
