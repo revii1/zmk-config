@@ -41,7 +41,7 @@ COMBO(tab,    &kp TAB,     LM3 LM1,     DEF NAV,      COMBO_TERM_FAST, COMBO_IDL
 COMBO(ret,    &kp RET,     RM3 RM1,     DEF NAV,      COMBO_TERM_FAST, COMBO_IDLE_SLOW)
 
 // bottom
-COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF,          COMBO_TERM_FAST, COMBO_IDLE_FAST)
+COMBO(semi,   &kp SQT,     RB1 RB2,     DEF,          COMBO_TERM_FAST, COMBO_IDLE_FAST)
 COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          COMBO_TERM_FAST, COMBO_IDLE_FAST)
 COMBO(mute,   &kp C_MUTE,  RB4 RB3,     NUM,          COMBO_TERM_FAST, COMBO_IDLE_FAST)
 COMBO(plpu,   &kp C_PP,    RB2 RB1,     NUM,          COMBO_TERM_FAST, COMBO_IDLE_FAST)
