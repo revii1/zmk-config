@@ -23,7 +23,7 @@
 // homerow mods
   #define M_IDX LCTRL
   #define M_MDL LSHFT
-  #define M_RNG LALT
+  #define M_RNG RALT
   #define M_PNK LGUI
 // clipboard shortcut
   #define C_RDO LC(Y)
