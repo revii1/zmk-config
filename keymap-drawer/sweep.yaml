@@ -20,7 +20,7 @@ layers:
   - {t: J, h: Ctrl}
   - {t: K, h: Shift}
   - {t: L, h: Alt}
-  - {t: '''', h: Gui}
+  - {t: ;, h: Gui}
   - Z
   - X
   - C
@@ -31,8 +31,8 @@ layers:
   - {t: ',', h: Sft+Spc}
   - {t: ., h: Alt}
   - /
-  - {t: SPC, h: NAV}
-  - {t: Tab, h: SYS}
+  - {t: Tab, h: NAV}
+  - {t: Spc, h: SYS}
   - {t: Enter, h: SYM}
   - {t: Bspc, h: NUM}
   NUM:
@@ -46,7 +46,7 @@ layers:
   - Mouse ↑
   - Right Click
   - Scroll ↑
-  - ;
+  - {t: ;, h: Gui}
   - '4'
   - '5'
   - '6'
@@ -214,7 +214,7 @@ combos:
   a: bottom
   o: -0.2
 - p: [26, 27]
-  k: ;
+  k: ''''
   l: [DEF]
 - p: [27, 28]
   k: ':'

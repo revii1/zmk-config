@@ -20,7 +20,7 @@ layers:
   - {t: J, h: Ctrl}
   - {t: K, h: Shift}
   - {t: L, h: Alt}
-  - {t: '''', h: Gui}
+  - {t: ;, h: Gui}
   - Esc
   - Z
   - X
@@ -34,8 +34,8 @@ layers:
   - /
   - Enter
   - Esc
-  - {t: SPC, h: NAV}
-  - {t: Tab, h: SYS}
+  - {t: Tab, h: NAV}
+  - {t: Spc, h: SYS}
   - {t: Enter, h: SYM}
   - {t: Bspc, h: NUM}
   - Del
@@ -50,7 +50,7 @@ layers:
   - Mouse ↑
   - Right Click
   - Scroll ↑
-  - ;
+  - {t: ;, h: Gui}
   - '4'
   - '5'
   - '6'
@@ -234,7 +234,7 @@ combos:
   a: bottom
   o: -0.2
 - p: [27, 28]
-  k: ;
+  k: ''''
   l: [DEF]
 - p: [28, 29]
   k: ':'
